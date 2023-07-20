@@ -3,3 +3,132 @@
     margin:0px;
     padding:0px;
 }
+header
+{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    height:60px;
+    opacity:0.6;
+}
+#logo img
+{
+    height:50px;
+}
+#logo
+{
+    margin-right: 100px;
+}
+.front ul
+{
+    list-style: none;
+}
+
+.front ul li{
+    float: right;
+    margin-right: 10px;
+}
+.front ul li a
+{
+  text-decoration: none;
+  margin-right: 35px;
+  color: white;
+}
+
+.phone
+{
+    margin-left: 80px;
+}
+
+
+.container
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   background-color: lightcoral;
+   height:100vh;
+   background-image:  linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/spider.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container h1
+{
+   color: white;
+   font-size:80px;   
+}
+.container p
+{
+    color: lightcoral;
+    font-size:larger;
+    font-weight:bolder;
+}
+.container h3
+{
+    color: orange;
+}
+#about-content
+{
+  display:flex;
+  
+}
+
+#image-container
+{
+    width:30%;
+}
+#description-container
+{
+   width:70%;
+   padding:50px;
+}
+.About-page
+{
+    padding:40px;
+    background-color: black;
+    color:white;
+}
+.About-page h1
+{
+  text-align: center;
+}
+.About-page hr
+{
+    margin-bottom: 40px;
+    width:5%;
+    height:1px;
+    background-color:gold;
+    margin-right: auto;
+    margin-left:auto;
+}
+.para
+{
+    color: orange;
+}
+#phone i
+{
+    color:white;
+}
+#phone p
+{
+    color:lightcoral;
+}
+.icons{
+    display: flex;
+}
+.icons-circle
+{
+   height:40px;
+   width:40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+   border-radius: 50%;
+   border:1px solid black;
+   margin-right: 15px;
+}
+
